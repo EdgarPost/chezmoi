@@ -54,3 +54,6 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export PATH="$PATH:$HOME/.local/bin"
 
 source ~/.api-keys
+
+# Scaleway CLI autocomplete initialization.
+eval "$(scw autocomplete script shell=zsh)"
